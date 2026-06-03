@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Automotivo | Portal de Velocidade</title>
+    <style>
+        /* Estilos Globais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #0b0c10;
+            color: #c5c6c7;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1f2833;
+            border-bottom: 3px solid #ff4500;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        header span {
+            color: #ff4500;
+        }
+
+        nav {
+            background-color: #151a21;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff4500;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        /* Seções principais */
+        section {
+            margin-bottom: 40px;
+            background-color: #1f2833;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 5px solid #ff4500;
+        }
+
+        section h2 {
+            color: #fff;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .grid-cultura {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .grid-cultura {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card-cultura {
+            background-color: #151a21;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .card-cultura h3 {
+            color: #ff4500;
+            margin-bottom: 10px;
+        }
+
+        /* Tabela de Fichas Técnicas */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background-color: #151a21;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #2f3b4c;
+        }
+
+        th {
+            background-color: #ff4500;
+            color: white;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        tr:hover {
+            background-color: #1f2833;
+        }
+
+        .categoria-tag {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        .esportivo { background-color: #28a745; color: white; }
+        .super { background-color: #007bff; color: white; }
+        .hyper { background-color: #dc3545; color: white; }
+
+        footer {
+            background-color: #151a21;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 1px solid #2f3b4c;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mundo <span>Automotivo</span></h1>
+        <p>A cultura da velocidade: das pistas reais ao mundo virtual</p>
+    </header>
+
+    <nav>
+        <a href="#f1">Fórmula 1</a>
+        <a href="#autodromos">Autódromos</a>
+        <a href="#cultura-pop">Cultura Pop & Games</a>
+        <a href="#fichas">Fichas Técnicas</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="f1">
+            <h2>Fórmula 1: O Ápice do Automobilismo</h2>
+            <p>A Fórmula 1 representa o nível mais alto de engenharia e competição automobilística do planeta. Com carros que utilizam motores híbridos ultraeficientes e aerodinâmica de ponta, pilotos do mundo inteiro disputam centésimos de segundo em circuitos icônicos. É a categoria onde a tecnologia das pistas se desenvolve para moldar o futuro dos carros de rua.</p>
+        </section>
+
+        <section id="autodromos">
+            <h2>Corridas de Autódromo</h2>
+            <p>Os autódromos são os templos sagrados da velocidade segura. Diferente das vias públicas, os circuitos fechados contam com áreas de escape, barreiras de proteção (como soft walls e caixas de brita) e equipes médicas prontas para agir. Categorias como Stock Car, DTM, e provas de Endurance (como as 24 Horas de Le Mans) testam os limites de pilotos e máquinas em ambientes controlados e profissionais.</p>
+        </section>
+
+        <section id="cultura-pop">
+            <h2>Velocidade na Cultura Pop: Jogos e Cinema</h2>
+            <div class="grid-cultura">
+                <div class="card-cultura">
+                    <h3>Submundo dos Games</h3>
+                    <p>Jogos como os da franquia <strong>Need for Speed</strong> e <strong>Grand Theft Auto (GTA)</strong> marcaram gerações ao simular a adrenalina de rachas noturnos e perseguições policiais de alta intensidade. No ambiente digital, os jogadores podem customizar carros com
