@@ -281,3 +281,64 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pistas de Fórmula 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Pistas de Fórmula 1</h1>
+
+    <div class="galeria">
+        <div class="card">
+            <h2>Monza</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Autodromo_Monza.jpg" alt="Monza">
+        </div>
+
+        <div class="card">
+            <h2>Interlagos</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Interlagos_2022.jpg" alt="Interlagos">
+        </div>
+
+        <div class="card">
+            <h2>Spa-Francorchamps</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Spa-Francorchamps.jpg" alt="Spa-Francorchamps">
+        </div>
+    </div>
+
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+h1 {
+    color: #d40000;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
