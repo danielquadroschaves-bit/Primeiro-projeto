@@ -384,20 +384,58 @@ automotive-world/
 </html>
 <section id="formula1">
    <h2>Fórmula 1</h2>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Automotivo | Portal Grid</title>
+    <style>
+        /* CSS Básico Embutido para organização visual */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #121212; color: #e0e0e0; margin: 0; padding: 0; line-height: 1.6; }
+        header { background-color: #1a1a1a; padding: 20px; text-align: center; border-bottom: 3px solid #ff003c; }
+        header h1 { color: #ff003c; margin: 0; }
+        nav ul { list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px; }
+        nav a { color: #fff; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #ff003c; }
+        main { max-width: 1100px; margin: 20px auto; padding: 0 20px; }
+        section { margin-bottom: 60px; padding-bottom: 20px; }
+        h2 { color: #ff003c; border-bottom: 1px solid #333; padding-bottom: 10px; }
+        .grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+        .card { background: #1e1e1e; padding: 15px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+        .card img { width: 100%; height: 200px; object-fit: cover; border-radius: 4px; }
+        .media-container { display: flex; flex-direction: column; gap: 20px; margin-top: 20px; }
+        .video-wrapper { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; }
+        .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; background: #252525; }
+        th, td { padding: 10px; border: 1px solid #444; text-align: left; }
+        th { background-color: #ff003c; color: white; }
+        footer { text-align: center; padding: 20px; background: #1a1a1a; color: #777; margin-top: 40px; }
+    </style>
+</head>
+<body>
 
-   <img src="imagens/monza.jpg" alt="Monza">
+    <header>
+        <h1>GridZone</h1>
+        <nav>
+            <ul>
+                <li><a href="#f1">Fórmula 1</a></li>
+                <li><a href="#autodromos">Autódromos</a></li>
+                <li><a href="#pop-games">Cultura Pop & Games</a></li>
+                <li><a href="#fichas">Fichas Técnicas</a></li>
+            </ul>
+        </nav>
+    </header>
 
-   <iframe
-      width="100%"
-      height="500"
-      src="https://www.youtube.com/embed/VIDEO_ID"
-      allowfullscreen>
-   </iframe>
-
-   <p>História, equipes e pilotos da F1...</p>
-</section>
-<div class="gallery">
-   <img src="imagens/nurburgring.jpg">
-   <img src="imagens/spa.jpg">
-   <img src="imagens/interlagos.jpg">
+    <main>
+        <section id="f1">
+            <h2>Fórmula 1: O Ápice do Automobilismo</h2>
+            <p>A Fórmula 1 é a categoria mais alta do automobilismo internacional de monopostos. Regulamentada pela FIA, ela reúne engenharia aeroespacial, estratégias milimétricas e os melhores pilotos do planeta em circuitos fechados pelo mundo.</p>
+            <p>Cada detalhe importa: desde o funcionamento do DRS (asa móvel) até o gerenciamento dos pneus e a recuperação de energia dos motores híbridos V6. É a união perfeita de tecnologia extrema e reflexos humanos.</p>
+            
+            <div class="media-container">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/S_8S_fS9B4w" title="F1 Highlights" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <img src="
 </div>
