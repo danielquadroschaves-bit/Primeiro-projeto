@@ -1,148 +1,201 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> cars superfast | Portal Grid</title>
-    <style>
-        /* CSS Básico Embutido para organização visual */
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #121212; color: #e0e0e0; margin: 0; padding: 0; line-height: 1.6; }
-        header { background-color: #ffffff; padding: 20px; text-align: center; border-bottom: 3px solid #00d0f5e3; }
-        header { background-color: #ffffff; padding: 20px; text-align: center; border-bottom: 3px solid #00d0f5e3; }
-        header { background-color: #ffffff; padding: 20px; text-align: center; border-bottom: 3px solid #00d0f5e3; }
-        header h1 { colorc; margin: 0; }
-        nav ul { list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px; }
-        nav a { color: #fff; text-decoration: none; font-weight: bold; }
-        nav a:hover { color: #00d0f5e3; }
-        main { max-width: 1100px; margin: 20px auto; padding: 0 20px; }
-        section { margin-bottom: 60px; padding-bottom: 20px; }
-        h2 { color: #ff000d0f5e3; border-bottom: 1px solid #333; padding-bottom: 10px; }
-        .grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
-        .card { background: #1e1e1e; padding: 15px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
-        .card img { width: 100%; height: 200px; object-fit: cover; border-radius: 4px; }
-        .media-container { display: flex; flex-direction: column; gap: 20px; margin-top: 20px; }
-        .video-wrapper { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; }
-        .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
-        table { width: 100%; border-collapse: collapse; margin-top: 10px; background: #252525; }
-        th, td { padding: 10px; border: 1px solid #444; text-align: left; }
-        th { background-color:#00d0f5; color: white; }
-        footer { text-align: center; padding: 20px; background: #1a1a1a; color: #777; margin-top: 40px; }
-    </style>
+    <title>Mundo Automotivo | Paixão por Motores</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>GridZone</h1>
+        <div class="logo">Mundo<span>Automotivo</span></div>
         <nav>
-            <ul>
-                <li><a href="#f1">Fórmula 1</a></li>
-                🔋 A Nova Era da Fórmula 1
-A categoria passa por uma de suas maiores revoluções técnicas, marcada por carros profundamente repaginados focando em sustentabilidade e competitividade:
-
-Motores 50/50: As unidades de potência agora dividem a entrega de energia de forma igualitária — metade vem do combustível totalmente sustentável (combustão interna) e a outra metade vem de um sistema elétrico drasticamente mais potente.
-
-Carros Ágeis: Os carros ficaram mais curtos, mais estreitos e 30 kg mais leves. O objetivo é torná-los mais ariscos e propícios a ultrapassagens em circuitos estreitos.
-
-Aerodinâmica Ativa: O icônico DRS (as asa móvel que se abria apenas quando o piloto estava colado no rival) foi substituído por sistemas de asas dianteiras e traseiras que alteram seus ângulos automaticamente na pista para diminuir o arrasto nas retas e aumentar a aderência nas curvas.
-
-Modo Ultrapassagem (Override): Os pilotos agora contam com um boost de energia elétrica gerido estrategicamente para tentar superar os adversários na pista.
-                <li><a href="#autodromos">Autódromos</a></li>
-                Os autódromos são praças esportivas ou complexos projetados especificamente para a realização de competições de velocidade, como o automobilismo (carros) e o motociclismo (motos). Eles são engenhosamente planejados para garantir a máxima performance dos veículos e, acima de tudo, a segurança de pilotos, equipes e espectadores.
-
-Abaixo, veja como eles se dividem e as principais características que fazem um circuito funcionar:
-
-🏎️ Tipos de Circuitos
-Os autódromos e suas pistas podem ser classificados de três formas principais:
-
-Circuitos Permanentes: São instalações fixas e dedicadas exclusivamente ao esporte a motor (ex: Interlagos no Brasil, Silverstone na Inglaterra). Funcionam o ano todo para testes, corridas e eventos corporativos.
-
-Circuitos de Rua: São montados temporariamente em vias públicas de cidades (ex: Mônaco, Baku, Las Vegas). As ruas são fechadas, recebem muros de proteção e zebras, e depois da corrida voltam ao tráfego normal.
-
-Circuitos Ovais: Muito populares nos Estados Unidos (ex: Indianápolis, Daytona). Possuem formato de oval, curvas com inclinação acentuada (banking) para manter a velocidade alta e o foco total na aerodinâmica e vácuo.
-
-🛠️ Anatomia de um Autódromo
-Para receber uma corrida homologada pelas federações internacionais (como a FIA para carros e a FIM para motos), um autódromo precisa ter uma estrutura complexa:
-
-A Pista e Seus Elementos
-Reta Principal: Onde fica a linha de largada/chegada e o grid de posicionamento dos carros.
-
-Curvas: Variam entre fechadas (hairpins), de alta velocidade, ou sequências em "S".
-
-Zebras (Curbs): Faixas pintadas (geralmente em vermelho e branco) nas bordas das curvas para indicar o limite da pista e ajudar os pilotos na trajetória.
-
-Áreas de Escape: Zonas fora da pista feitas de asfalto, brita ou grama para reduzir a velocidade de veículos que perdem o controle antes que batam na barreira.
-
-A Estrutura de Apoio
-Boxes (Pits): Garagens onde as equipes preparam os carros e realizam as paradas de reabastecimento ou troca de pneus (pit stops).
-
-Pit Lane: A rua interna paralela à reta principal usada para os carros entrarem e saírem dos boxes de forma organizada e com velocidade controlada.
-
-Torre de Controle: O "cérebro" do evento, de onde os diretores de prova monitoram as câmeras, cronometragem e acionam as bandeiras de sinalização.
-
-Arquibancadas: Áreas seguras destinadas ao público assistir à corrida.
-
-🛡️ Segurança em Primeiro Lugar
-A evolução dos autódromos ao longo das décadas focou drasticamente na segurança. Hoje, as pistas utilizam tecnologias avançadas como:
-
-Barreiras Tecpro / SAFER Barrier: Módulos de absorção de impacto colocados na frente dos muros de concreto para dissipar a energia de uma batida violenta e proteger o piloto.
-
-Além disso, existem os fiscais de pista (marshals) posicionados ao redor de todo o circuito para sinalizar perigos imediatamente usando bandeiras coloridas ou painéis eletrônicos de LED.
-                <li><a href="#pop-games">Cultura Pop & Games</a></li>
-                Os jogos de corrida e automobilismo são um dos gêneros mais antigos e populares do mundo dos videogames. Eles variam desde experiências casuais até simulações ultra-realistas que replicam exatamente a física de um carro de verdade.
-
-Se você quer entender melhor como esse universo funciona e melhorar sua pilotagem virtual, confira o guia abaixo:
-
-🎮 Os Principais Estilos de Jogos de Carros
-Para começar, é importante entender que os jogos de corrida se dividem em três grandes categorias:
-
-Arcade: Focados na diversão rápida, velocidade insana e física exagerada. O carro faz curvas impossíveis facilmente e bater nos muros geralmente não quebra o veículo.
-
-Exemplos: Need for Speed, Asphalt, Burnout, Mario Kart.
-
-Simuladores (SimRacing): Buscam reproduzir a realidade com a maior precisão possível. O desgaste dos pneus, a temperatura da pista, o peso do carro e a aerodinâmica influenciam diretamente na pilotagem. São jogados preferencialmente com volante e pedais.
-
-Exemplos: iRacing, Assetto Corsa, Automobilista 2.
-
-Simcade: O equilíbrio perfeito entre os dois mundos. Possuem uma física realista, mas são acessíveis e muito divertidos de jogar tanto no controle quanto no teclado.
-
-Exemplos: Gran Turismo, Forza Motorsport, Forza Horizon, F1 (da EA Sports).
-
-🏆 Dicas para Mandar Bem nas Pistas
-Seja jogando no controle ou em um simulador completo, algumas técnicas de pilotagem são universais e vão te ajudar a baixar o tempo das suas voltas:
-
-1. Entenda a "Linha de Corrida" (Trajetória Ideal)
-Para fazer uma curva o mais rápido possível, você deve usar toda a largura da pista. A regra de ouro é: Entrar aberto, fechar no ápice da curva e sair aberto.
-
-Fique do lado de fora da pista antes da curva.
-
-Traga o carro para a parte de dentro no meio da curva (o ponto mais próximo da zebra interna é chamado de ápice).
-
-Deixe o carro espalhar para o lado de fora na saída enquanto acelera tudo.
-
-2. Freie em Linha Reta
-O pneu do carro tem uma quantidade limitada de aderência. Se você tentar frear tudo o que pode e virar o volante ao mesmo tempo, o carro vai perder o controle (sair de frente ou de traseira).
-
-A dica é: Faça o trabalho pesado de frenagem enquanto o carro ainda estiver em linha reta, antes de começar a virar para a curva.
-
-3. Seja Suave nos Comandos
-Nos jogos mais realistas, movimentos bruscos no analógico ou no volante desestabilizam o carro. Imagine que há um ovo embaixo do seu pedal de acelerador e de freio: pressione-os com progressão. O mesmo vale para a direção.
-
-4. Desative as Assistências Aos Poucos
-Jogos como Gran Turismo ou F1 vêm com assistências de fábrica (Freios ABS, Controle de Tração, Linha de Guia). Conforme você for pegando o jeito, desligue o Controle de Tração e a Frenagem Automática. O carro se tornará mais arisco, porém muito mais rápido.                <li><a href="#fichas">Fichas Técnicas</a></li>
-            </ul>
+            <a href="#">Início</a>
+            <a href="#">Superesportivos</a>
+            <a href="#">Clássicos</a>
+            <a href="#">Contato</a>
         </nav>
     </header>
 
-    <main>
-        <section id="f1">
-            <h2>Fórmula 1: O Ápice do Automobilismo</h2>
-            <p>A Fórmula 1 é a categoria mais alta do automobilismo internacional de monopostos. Regulamentada pela FIA, ela reúne engenharia aeroespacial, estratégias milimétricas e os melhores pilotos do planeta em circuitos fechados pelo mundo.</p>
-            <p>Cada detalhe importa: desde o funcionamento do DRS (asa móvel) até o gerenciamento dos pneus e a recuperação de energia dos motores híbridos V6. É a união perfeita de tecnologia extrema e reflexos humanos.</p>
+    <section class="banner">
+        <div class="banner-text">
+            <h1>Acelere sua Paixão</h1>
+            <p>Fique por dentro das novidades, lançamentos e segredos do universo sobre quatro rodas.</p>
+            <a href="#" class="btn">Explorar Conteúdo</a>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Categorias em Destaque</h2>
+        <div class="cards">
             
-            <div class="media-container">
-                <div class="video-wrapper">
-                    <iframe src="https://www.youtube.com/embed/S_8S_fS9B4w" title="F1 Highlights" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <img src= 
-                
+            <div class="card">
+                <h3>Hypercars</h3>
+                <p>Os carros mais rápidos e tecnológicos do planeta. Velocidade pura e engenharia extrema.</p>
+                <a href="#">Ver mais →</a>
+            </div>
+
+            <div class="card">
+                <h3>Antigos & Clássicos</h3>
+                <p>Histórias sobre rodas. Relembre os modelos que marcaram épocas e continuam icônicos.</p>
+                <a href="#">Ver mais →</a>
+            </div>
+
+            <div class="card">
+                <h3>Cultura Tuning</h3>
+                <p>Modificações, performance e estética. Onde a personalidade do dono se torna arte.</p>
+                <a href="#">Ver mais →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mundo Automotivo. Feito com paixão por motores.</p>
+    </footer>
+
+</body>
+</html>
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+    background-color: #111;
+    border-bottom: 3px solid #ff3333;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: #ff3333;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff3333;
+}
+
+/* Banner Principal */
+.banner {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('https://images.unsplash.com/photo-1617788138017-80ad40651399?q=80&w=1200') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.banner-text p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    max-width: 600px;
+    color: #ccc;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ff3333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #cc0000;
+}
+
+/* Seção de Cards */
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+    position: relative;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background-color: #262626;
+    padding: 30px;
+    border-radius: 8px;
+    border-top: 4px solid #ff3333;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.card p {
+    color: #b3b3b3;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.card a {
+    color: #ff3333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #666;
+    margin-top: 50px;
+    font-size: 14px;
+}
