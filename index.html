@@ -100,12 +100,30 @@ alt="Logotipo conceitual de tecnologia e educacao: um livro aberto de onde emerg
 <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação
 e curiosidades da área de tecnologia.
 
-</p>
-<button>❤️<span>0</span></button>
-<button>👍<span>0</span></button>
-</div>
-</article>
-</main>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Like e Dislike</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <div class="card">
+        <h3>Você gostou desse conteúdo?</h3>
+        
+        <div class="buttons-container">
+            <button id="likeBtn" class="btn">
+                ❤️ Like (<span id="likeCount">0</span>)
+            </button>
+            
+            <button id="dislikeBtn" class="btn">
+                👎 Dislike (<span id="dislikeCount">0</span>)
+            </button>
+        </div>
+    </div>
 
-
+    <script src="script.js"></script>
+</body>
+</html>
